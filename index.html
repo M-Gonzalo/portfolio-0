@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gonzalo Muñoz</title>
+
+    <link rel="stylesheet" href="./default.css">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+
+    <!-- Generic font imports -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fancy cursive type for the greeting -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap">
+    <!-- Fonts for the larger text (headers) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <!-- Font for the smaller text (content) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@500&display=swap">
+
+    <style></style>
+
+</head>
+
+<body>
+    <section class="section-style-1">
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h1>Well Hi There!</h1>
+                <h6>I'm Gonzalo Muñoz, a fullstack developer from Argentina</h4>
+            </div>
+            <div class=intro-wrapper>
+                <navbar class="nav-wrapper">
+                    <div class="button-wrapper">
+                        <div id="red-button" class="button"></div>
+                        <div id="yellow-button" class="button"></div>
+                        <div id="green-button" class="button"></div>
+                    </div>
+                    <ul class="navigation">
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </navbar>
+                <div class="left-column">
+                    <img id="felfi" src="./images/gonzalo.jpg" alt="C'est Moi">
+                    <!-- <h5 style="text-align: center;line-height: 0;">Personalize theme</h5> -->
+                    <div class="theme-settings-wrapper">
+                        <div data-mode="light" class="theme-dot" id="light-dot"></div>
+                        <div data-mode="blue" class="theme-dot" id="blue-dot"></div>
+                        <div data-mode="green" class="theme-dot" id="green-dot"></div>
+                        <div data-mode="purple" class="theme-dot" id="purple-dot"></div>
+                    </div>
+                    <p id="settings-epigraph">Theme settings (will be saved locally)</p>
+                </div>
+                <div class="right-column">
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <div id="corner-top-left" class="corner"></div>
+                            <div id="corner-top-right" class="corner"></div>
+                            <h3>What I Do</h3>
+                            <p>I create content-rich applications tailored to the user's needs, using battle-proven
+                                technologies</p>
+                            <div id="corner-bottom-left" class="corner"></div>
+                            <div id="corner-bottom-right" class="corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="section-style-2">
+        <div class="main-container">
+            <div class="about-wrapper">
+
+                <div class="about-me">
+                    <h4>More about me</h4>
+                    <p>Some things about me</p>
+                    <p>More things about me</p>
+                    <hr>
+                    <h4>Top expertise</h4>
+                    <p>Gots lotta expetis: <a target="_blank" href="./Gonzalo_Muñoz_Resume_es.pdf">Download resume</a></p>
+
+                    <div class="skillz-wrapper">
+                        <ul>
+                            <li>Javascript</li>
+                            <li>Node.js</li>
+                            <li>React</li>
+                            <li>Redux</li>
+                        </ul>
+                        <ul>
+                            <li>HMTL5</li>
+                            <li>CSS3</li>
+                            <li>Express</li>
+                            <li>NextJS</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div class="social-media">
+                    <img id="github-screenshot" src="./images/github.png" alt="My Github">
+                    <h3>Find me on Github</h3>
+                    <a target="_blank" href="http://github.com/M-Gonzalo">M-Gonzalo</a>
+                </div>
+        
+            </div>
+        </section>
+
+    <section class="section-style-1">
+        <div class="main-container">
+            <h3 style="text-align: center">Some of my projects</h3>
+
+            <div id="post-wrapper">
+                <div>
+                    <div class="post">
+                        <image class="thumbnail" src="images/github.png"></image>
+                        <div class="post-preview">
+                            <h6 class="post-title">Post title</h6>
+                            <p class="post-content">Post content</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <image class="thumbnail" src="images/github.png"></image>
+                        <div class="post-preview">
+                            <h6 class="post-title">Post title</h6>
+                            <p class="post-content">Post content</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <image class="thumbnail" src="images/github.png"></image>
+                        <div class="post-preview">
+                            <h5 class="post-title">Post title</h5>
+                            <p class="post-content">Post content</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section-style-2">
+        <div class="main-container">
+            <h3 style="text-align: center">Let's have a chat!</h3>
+            <form id="contact-form">
+            <a name="contact"></a>
+
+				<label>Name</label>
+				<input class="input-field" type="text" name="name">
+
+				<label>Subject</label>
+				<input class="input-field" type="text" name="subject">
+
+				<label>Email</label>
+				<input class="input-field" type="text" name="email">
+
+				<label>Message</label>
+				<textarea class="input-field" name="message"></textarea>
+
+				<input id="submit-btn" type="submit" value="Send">
+			</form>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
